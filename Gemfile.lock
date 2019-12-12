@@ -109,7 +109,6 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.7-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    pg (1.1.4-x64-mingw32)
     public_suffix (4.0.1)
     puma (4.3.1)
       nio4r (~> 2.0)
@@ -221,13 +220,12 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   jquery-rails
-  pg
   puma (~> 4.1)
   rails (~> 6.0.1)
   rails-controller-testing
   sass-rails (>= 6)
   selenium-webdriver
-  sqlite3
+  sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 3.3.0)

@@ -17,7 +17,7 @@ end
 group :production do
   gem 'pg'         #gem to use in production environment
 end
-Use Puma as the app server
+# Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'

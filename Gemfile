@@ -9,14 +9,14 @@ gem 'bcrypt', '3.1.13'
 gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3', '~> 1.4'
-gem 'pg', '1.1.4'
-# group :development do
-#    gem 'sqlite3'    #gem to use in development environment
-# end
+# gem 'pg', '1.1.4'
+group :development do
+   gem 'sqlite3'    #gem to use in development environment
+end
 
-# group :production do
-#   gem 'pg'         #gem to use in production environment
-# end
+group :production do
+  gem 'pg'         #gem to use in production environment
+end
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -25,6 +25,7 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
+gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production

@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.5'
-
 gem 'rails', '~> 6.0.1'
 gem 'bcrypt', '3.1.13'
 gem 'bootstrap-sass', '3.4.1'
@@ -11,7 +9,7 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'will_paginate',           '3.2.1'
 gem 'bootstrap-will_paginate', '1.0.0'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3.3'
 gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
